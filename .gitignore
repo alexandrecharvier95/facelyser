@@ -1,7 +1,9 @@
+# Project specific
 .ipynb_checkpoints
-
 data
 !data/.gitkeep
-
 models
 !models/.gitkeep
+
+# IDE
+.idea

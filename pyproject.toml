@@ -1,10 +1,11 @@
 [project]
 name = "facelyser"
 version = "0.1.0"
-requires-python = ">=3.13"
+requires-python = ">=3.11,<3.13"
 dependencies = [
     "jupyterlab>=4.6.3",
     "matplotlib>=3.11.1",
-    "mediapipe>=1.0.1",
-    "pandas>=3.0.5",
+    "mediapipe<1",
+    "opencv-python>=5.0.0.93",
+    "protobuf<4",
 ]
